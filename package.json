@@ -1,0 +1,22 @@
+{
+  "name": "porfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valderC/personal-portfolio.git"
+  },
+  "author": "Yurik Valderrama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valderC/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/valderC/personal-portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
