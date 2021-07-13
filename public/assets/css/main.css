@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -77,12 +71,12 @@ input, select, textarea {
 	html {
 		box-sizing: border-box;
 	}
-	.colored {
+	/* .colored {
 		font-size: 110px;
 		display: inline-flex;
 		margin-top: 50px;
 		margin-right: 40px;
-		}
+		} */
 
 	*, *:before, *:after {
 		box-sizing: inherit;
@@ -198,6 +192,10 @@ input, select, textarea {
 		border: 0;
 		border-bottom: solid 2px #efefef;
 		margin: 2em 0;
+	}
+
+	hr.divider {
+		margin: 1em;
 	}
 
 		hr.major {
@@ -2574,14 +2572,14 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.3em;
 			margin: 0 0 0.5em 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1em;
 			line-height: 1.5em;
-			margin: 0;
+			margin: 1em;
 		}
 
 /* Header */
@@ -2702,7 +2700,7 @@ input, select, textarea {
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
+			margin: 0;
 			padding: 4em 0 0 0;
 		}
 
@@ -3231,3 +3229,309 @@ input, select, textarea {
 			}
 
 	}
+/* 
+    .skills-container {
+        width: 107%; 
+    }
+
+    .skills-container > ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 93%;
+        justify-content: space-between;
+        height: 500px;
+        padding-left: 0;
+        margin-bottom: 0;
+        }
+
+    @media screen and (max-width: 1280px){
+    .skills-container > ul {
+        width: 46.1rem;
+        }
+    }
+
+    @media screen and (max-width: 1160px){
+        .skills-container > ul {
+            width: 39rem;
+            justify-content: flex-start;
+            height: 570px;
+            }
+        }
+
+    @media screen and (max-width: 980px){
+        .skills-container > ul {
+            width: 88vw;
+            justify-content: space-between;
+            height: 500px;
+            }
+        }
+        
+    @media screen and (max-width: 980px){
+        .skills-container > ul {
+            width: 88vw;
+            justify-content: space-between;
+            height: 500px;
+            }
+        }
+
+    @media screen and (max-width: 845px){
+        .skills-container > ul {
+            justify-content: flex-start;
+            }
+        }
+
+    @media screen and (max-width: 784px){
+        .skills-container > ul {
+            width: 87vw; 
+        }
+    }
+
+    @media screen and (max-width: 690px){
+        .skills-container > ul {
+            height: 750px; 
+        }
+    }
+
+    i {
+        font-size:100px; 
+    } */
+
+   /* one section */
+
+	i.fab {
+		font-size: 18px;
+		align-self: center;
+	}
+
+	ul.actions a {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	#docker {
+		justify-content: space-between;
+	}
+
+	#one .actions {
+		flex-wrap: wrap;
+	}
+
+	@media screen and (max-width: 1119px) {
+		#one .actions > li:first-of-type {
+			margin-bottom: 10px;
+		}
+	}
+
+	@media screen and (max-width: 980px) {
+		#one .actions > li:first-of-type {
+			margin-bottom: 0px;
+		}
+	}
+
+	@media screen and (max-width: 815px) {
+		#one .actions > li:first-of-type {
+			margin-bottom: 10px;
+		}
+	}
+
+	@media screen and (max-width: 414px) {
+		#docker {
+			justify-content: space-evenly;
+		}
+	}
+
+	/* one.five section */
+
+	i {
+		font-size: 100px;
+	}
+
+	.skills-container {
+		width: 105%;
+	}
+	
+	.skills-row {
+		display: flex;	
+		justify-content: space-between;
+		height: 125px;
+		flex-wrap: wrap;
+	}
+
+	i.fas {
+		font-size: 18px;
+		align-self: center;
+	}
+
+	.skills-container > ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		width: 93%;
+    justify-content: space-between;
+		height: 500px;
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+
+	.skills-container {
+		width: 107%;
+	}
+
+	.skills-container li {
+		margin-left: 6px;
+		padding-left: 0;
+	}
+
+	@media screen and (min-width: 1801px) {
+		.skills-container > ul {
+			height: 303px;
+		}
+	}
+
+	@media screen and (max-width: 1280px) {
+		.skills-container > ul {
+			width: 46.1rem;
+		}
+	}
+
+	@media screen and (max-width: 1160px) {
+		.skills-container {
+			width: 100%;
+		}
+
+		.skills-container > ul {
+			width: 39rem;
+			justify-content: flex-start;
+			height: 570px;
+		}
+
+		.skills-container li {
+			margin-left: 24px;
+		}
+	}
+
+	@media screen and (max-width: 980px) {
+		.skills-container > ul {
+			width: 88vw;
+			justify-content: space-between;
+			height: 500px;
+		}
+	}
+
+	@media screen and (max-width: 845px) {
+		.skills-container > ul {
+			width: 88vw;
+			justify-content: flex-start;
+		}
+
+		.skills-container li {
+			margin-left: 38px;
+		}
+	}
+
+	@media screen and (max-width: 784px) {
+		.skills-container > ul {
+			width: 87vw;
+			height: 650px;
+		}
+
+		.skills-container li {
+			margin-left: 38px;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		.skills-container li {
+			margin-left: 50px;
+		}
+	}
+
+	@media screen and (max-width: 690px) {
+		.skills-container > ul {
+			height: 750px;
+		}
+
+		.skills-container li {
+			margin-left: 11%;
+		}
+	}
+
+	@media screen and (max-width: 545px) {
+		.skills-container i {
+			font-size: 18.4vw;
+		}
+
+		.skills-container img {
+			height: 18.4vw;
+		}
+	}
+
+	/* two section */
+
+	ul.project-ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	ul.project-ul > li {
+		padding: 0.5em 0;
+		border-bottom: solid 2px #efefef;
+	}
+
+	ul.project-ul > li:last-child {
+		border-bottom: 0;
+	}
+
+	.project-ul p {
+		font-size: 1em;
+	}
+
+	#main > section {
+		margin: 0;
+	}
+
+	.work-item {
+		margin: 0;
+	}
+
+	/* three section */ 
+
+	.education > li {
+		list-style: none;
+		display: flex;
+		padding: 0;
+	}
+
+	.education {
+		padding: 0;
+	}
+
+	.education h5 {
+		padding-left: 25px;
+		align-self: center;
+		font-size: inherit;
+		color: inherit;
+	}
+
+	.education > li:first-child img {
+		padding-left: 5px;
+	}
+
+	.education >li:last-of-type {
+		margin-top: 30px;
+	}
+
+	.col-4.col-12-small {
+		margin-top: 0.8em;
+	}
+
+	#two ul.actions { 
+		flex-wrap: wrap;
+	}
+
+	#two ul.actions li {
+		margin-bottom: 15px;
+	}
+
+
