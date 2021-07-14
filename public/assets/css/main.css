@@ -3453,7 +3453,7 @@ input, select, textarea {
 		}
 
 		.skills-container li {
-			margin-left: 11%;
+			margin: 1em;
 		}
 	}
 
@@ -3487,9 +3487,9 @@ input, select, textarea {
 		font-size: 1em;
 	}
 
-	#main > section {
+	/* #main > section {
 		margin: 0;
-	}
+	} */
 
 	.work-item {
 		margin: 0;
