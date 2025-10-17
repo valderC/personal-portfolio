@@ -2231,7 +2231,8 @@ input, select, textarea {
 	 			width: 9em;
 	 			height: 9em;
 	 			object-fit: cover;
-	 			object-position: top 20%;
+	 			object-position: left 50%;
+
 	 			margin-left: -1.2em;
 	 			margin-right: 0;
 			}

@@ -7,4 +7,4 @@ app.listen(port, () => {
     console.log(`connected on port: ${port}`)
 })
 
-app.use(express.static('public')); 
+app.use(express.static(__dirname + '/../'));
