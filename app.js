@@ -7,4 +7,5 @@ app.listen(port, () => {
     console.log(`connected on port: ${port}`)
 })
 
-app.use(express.static('public')); 
+// Serve files from the project root so `index.html` at repo root is accessible
+app.use(express.static(__dirname)); 
